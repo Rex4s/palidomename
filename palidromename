@@ -1,0 +1,7 @@
+string = input("enter a palidrome name:")
+rev_string = string[::-1]
+print("switch first and last letter:",rev_string)
+if string == rev_string:
+    print ("The name is a palidrome")
+else:
+    print("The name isnt a palidrome")
